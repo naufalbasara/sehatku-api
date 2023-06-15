@@ -1,0 +1,5 @@
+tensorflow
+pytesseract
+easyocr
+cv2
+matplotlib
