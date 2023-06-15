@@ -5,22 +5,14 @@ photos of food product packaging to identify the ingredients and their
 associated health benefits.</p>
 
 ## Features
-<ol>
-    <li>
-	<p>
-	    OCR with Model Trained
-	</p>
-        ```bash
-    	/predict_model
-        ```
-    </li>
-    <li>
-	<p>
-	    OCR with PyTesseract Library
-	</p>
-	```bash
-	/predict_ocr
-	```
-    </li>
-</ol>
+1. Predict with Model Trained `POST`
+   ```bash
+   /predict_model # Requesting POST HTTP Request with Image Data
+   ```
+2. Predict with OCR Library `POST`
+   ```BASH
+   /predict_ocr # Requesting POST HTTP Request with Image Data
+   ```
 
+## Example
+``Upcoming``
